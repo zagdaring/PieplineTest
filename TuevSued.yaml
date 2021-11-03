@@ -1,4 +1,6 @@
 ---
+variables:
+- group: PipelineTest
 steps:
 - task: PowerShell@2
   inputs:
